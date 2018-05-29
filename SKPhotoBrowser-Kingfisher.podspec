@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SKPhotoBrowser-Kingfisher"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Use SKPhotoBrowser, download and cache  image by Kingfisher."
   s.description  = <<-EOS
     Use SKPhotoBrowser, download and cache image by Kingfisher.
