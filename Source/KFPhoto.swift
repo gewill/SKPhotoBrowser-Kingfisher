@@ -22,21 +22,21 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
     open var photoURL: String!
 
     // MARK: - init
-    override init() {
+    public override init() {
         super.init()
     }
 
-    convenience init(image: UIImage) {
+    public convenience init(image: UIImage) {
         self.init()
         underlyingImage = image
     }
 
-    convenience init(url: String) {
+    public convenience init(url: String) {
         self.init()
         photoURL = url
     }
 
-    convenience init(url: String, holder: UIImage?) {
+    public convenience init(url: String, holder: UIImage?) {
         self.init()
         photoURL = url
         underlyingImage = holder
