@@ -13,13 +13,13 @@ import Kingfisher
 open class KFPhoto: NSObject, SKPhotoProtocol {
 
     // MARK: - SKPhotoProtocol
-   open var index: Int = 0
-   open var underlyingImage: UIImage!
-   open var caption: String?
-   open var contentMode: UIViewContentMode = .scaleAspectFill
+    open var index: Int = 0
+    open var underlyingImage: UIImage!
+    open var caption: String?
+    open var contentMode: UIViewContentMode = .scaleAspectFill
 
-   open var shouldCachePhotoURLImage: Bool = true
-   open var photoURL: String!
+    open var shouldCachePhotoURLImage: Bool = true
+    open var photoURL: String!
 
     // MARK: - init
     override init() {
@@ -43,7 +43,7 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
     }
 
     // MARK: - SKPhotoProtocol
-    func checkCache() {
+    open func checkCache() {
         guard let photoURL = photoURL else {
             return
         }
@@ -56,7 +56,7 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
         }
     }
 
-    func loadUnderlyingImageAndNotify() {
+    open func loadUnderlyingImageAndNotify() {
         guard photoURL != nil, let URL = URL(string: photoURL) else { return }
 
         // Fetch Image
@@ -80,8 +80,7 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
         }
     }
 
-    // MARK: - private methods
-    private func loadUnderlyingImageComplete() {
+    open private func loadUnderlyingImageComplete() {
         NotificationCenter.default.post(name: Notification.Name(rawValue: SKPHOTO_LOADING_DID_END_NOTIFICATION), object: self)
     }
 }
