@@ -80,7 +80,7 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
         }
     }
 
-    open private func loadUnderlyingImageComplete() {
+    open func loadUnderlyingImageComplete() {
         NotificationCenter.default.post(name: Notification.Name(rawValue: SKPHOTO_LOADING_DID_END_NOTIFICATION), object: self)
     }
 }

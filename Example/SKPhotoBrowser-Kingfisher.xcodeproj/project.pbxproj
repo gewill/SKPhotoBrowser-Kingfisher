@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5DF812FC300E7D578D665BD8 /* Pods_SKPhotoBrowser_KingfisherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64A711E75E5DF2E608F28BB /* Pods_SKPhotoBrowser_KingfisherTests.framework */; };
 		632489DAF2BA155C85D0F353 /* Pods_SKPhotoBrowser_Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC51A86CBE2C04565D55D777 /* Pods_SKPhotoBrowser_Kingfisher.framework */; };
-		BE62AA5520BD8D2F00C9C100 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = BE62AA5420BD8D2F00C9C100 /* Source */; };
 		BE7E76D220BD86E600A1B85B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E76D120BD86E600A1B85B /* AppDelegate.swift */; };
 		BE7E76D420BD86E600A1B85B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E76D320BD86E600A1B85B /* ViewController.swift */; };
 		BE7E76D720BD86E600A1B85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7E76D520BD86E600A1B85B /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		3A86EB62A3558084842A33BE /* Pods-SKPhotoBrowser-KingfisherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKPhotoBrowser-KingfisherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKPhotoBrowser-KingfisherTests/Pods-SKPhotoBrowser-KingfisherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		743AD5CBF9F74DF040654CEF /* Pods-SKPhotoBrowser-Kingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKPhotoBrowser-Kingfisher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKPhotoBrowser-Kingfisher/Pods-SKPhotoBrowser-Kingfisher.debug.xcconfig"; sourceTree = "<group>"; };
-		BE62AA5420BD8D2F00C9C100 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
 		BE7E76CE20BD86E600A1B85B /* SKPhotoBrowser-Kingfisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKPhotoBrowser-Kingfisher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7E76D120BD86E600A1B85B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE7E76D320BD86E600A1B85B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 		BE7E76C520BD86E600A1B85B = {
 			isa = PBXGroup;
 			children = (
-				BE62AA5420BD8D2F00C9C100 /* Source */,
 				BE7E76D020BD86E600A1B85B /* SKPhotoBrowser-Kingfisher */,
 				BE7E76E520BD86E700A1B85B /* SKPhotoBrowser-KingfisherTests */,
 				BE7E76CF20BD86E600A1B85B /* Products */,
@@ -219,7 +216,6 @@
 				BE7E76DC20BD86E700A1B85B /* LaunchScreen.storyboard in Resources */,
 				BE7E76D920BD86E700A1B85B /* Assets.xcassets in Resources */,
 				BE7E76D720BD86E600A1B85B /* Main.storyboard in Resources */,
-				BE62AA5520BD8D2F00C9C100 /* Source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
