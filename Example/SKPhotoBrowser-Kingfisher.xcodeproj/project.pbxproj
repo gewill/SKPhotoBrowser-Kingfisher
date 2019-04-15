@@ -235,7 +235,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SKPhotoBrowser-Kingfisher/Pods-SKPhotoBrowser-Kingfisher-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-Kingfisher/Pods-SKPhotoBrowser-Kingfisher-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser-Kingfisher/SKPhotoBrowser_Kingfisher.framework",
@@ -248,7 +248,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKPhotoBrowser-Kingfisher/Pods-SKPhotoBrowser-Kingfisher-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-Kingfisher/Pods-SKPhotoBrowser-Kingfisher-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A7C0AAE8D5AE1F8D9D78FFD /* [CP] Embed Pods Frameworks */ = {
@@ -257,7 +257,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SKPhotoBrowser-KingfisherTests/Pods-SKPhotoBrowser-KingfisherTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-KingfisherTests/Pods-SKPhotoBrowser-KingfisherTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser-Kingfisher/SKPhotoBrowser_Kingfisher.framework",
@@ -270,7 +270,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKPhotoBrowser-KingfisherTests/Pods-SKPhotoBrowser-KingfisherTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-KingfisherTests/Pods-SKPhotoBrowser-KingfisherTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8E807A9433433824DDC66899 /* [CP] Check Pods Manifest.lock */ = {
@@ -488,7 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.SKPhotoBrowser-Kingfisher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -508,7 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.SKPhotoBrowser-Kingfisher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -529,7 +529,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.SKPhotoBrowser-KingfisherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKPhotoBrowser-Kingfisher.app/SKPhotoBrowser-Kingfisher";
 			};
@@ -551,7 +551,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.gewill.SKPhotoBrowser-KingfisherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKPhotoBrowser-Kingfisher.app/SKPhotoBrowser-Kingfisher";
 			};

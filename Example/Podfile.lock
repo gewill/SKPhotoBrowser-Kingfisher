@@ -1,11 +1,11 @@
 PODS:
-  - Kingfisher (4.8.0)
-  - SKPhotoBrowser (5.1.0)
-  - SKPhotoBrowser-Kingfisher (1.0.0):
-    - SKPhotoBrowser-Kingfisher/Core (= 1.0.0)
-  - SKPhotoBrowser-Kingfisher/Core (1.0.0):
-    - Kingfisher (~> 4.0)
-    - SKPhotoBrowser (~> 5.0)
+  - Kingfisher (5.2.0)
+  - SKPhotoBrowser (6.1.0)
+  - SKPhotoBrowser-Kingfisher (2.0.0):
+    - SKPhotoBrowser-Kingfisher/Core (= 2.0.0)
+  - SKPhotoBrowser-Kingfisher/Core (2.0.0):
+    - Kingfisher (~> 5.2.0)
+    - SKPhotoBrowser (~> 6.1.0)
 
 DEPENDENCIES:
   - SKPhotoBrowser-Kingfisher (from `../`)
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
-  SKPhotoBrowser: c20c1da34d737b4e3e101feead6c8dd92ebf860a
-  SKPhotoBrowser-Kingfisher: 437d2984a8e0fbba4f786fc995773ccbc8944146
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  SKPhotoBrowser-Kingfisher: 3bb8aaf1a9803013eb5a5522e3ecb57d0e383b5a
 
-PODFILE CHECKSUM: 49535003c9be595ebd1a6b6a221e2d4e4add2f3f
+PODFILE CHECKSUM: 427c89d3c88f0aa257cf44ce8fa7f58c5cdb9a41
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

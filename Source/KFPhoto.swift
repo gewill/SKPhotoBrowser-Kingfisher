@@ -16,7 +16,7 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
     open var index: Int = 0
     open var underlyingImage: UIImage!
     open var caption: String?
-    open var contentMode: UIViewContentMode = .scaleAspectFill
+    open var contentMode: UIView.ContentMode = .scaleAspectFill
 
     open var shouldCachePhotoURLImage: Bool = true
     open var photoURL: String!

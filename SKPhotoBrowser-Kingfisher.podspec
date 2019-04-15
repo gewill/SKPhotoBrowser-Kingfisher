@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SKPhotoBrowser-Kingfisher"
-  s.version          = "1.0.1"
+  s.version          = "2.0.0"
   s.summary          = "Use SKPhotoBrowser, download and cache  image by Kingfisher."
   s.description  = <<-EOS
     Use SKPhotoBrowser, download and cache image by Kingfisher.
@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/gewill/SKPhotoBrowser-Kingfisher.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/gewill_org'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.requires_arc = true
 
   s.default_subspec = "Core"
 
   s.subspec "Core" do |ss|
     ss.source_files  = "Source/*.swift"
-    ss.dependency "Kingfisher", "~> 4.0"
-    ss.dependency "SKPhotoBrowser", "~> 5.0"
+    ss.dependency "Kingfisher", "~> 5.2.0"
+    ss.dependency "SKPhotoBrowser", "~> 6.1.0"
     ss.framework  = "UIKit"
   end
 end
