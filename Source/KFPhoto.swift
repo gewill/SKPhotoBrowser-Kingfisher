@@ -6,13 +6,13 @@
 //  Copyright © 2018 Will. All rights reserved.
 //
 
-import UIKit
-import SKPhotoBrowser
 import Kingfisher
+import SKPhotoBrowser
+import UIKit
 
 open class KFPhoto: NSObject, SKPhotoProtocol {
-
     // MARK: - SKPhotoProtocol
+
     open var index: Int = 0
     open var underlyingImage: UIImage!
     open var caption: String?
@@ -22,6 +22,7 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
     open var photoURL: String!
 
     // MARK: - init
+
     public override init() {
         super.init()
     }
@@ -43,6 +44,7 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
     }
 
     // MARK: - SKPhotoProtocol
+
     open func checkCache() {
         guard let photoURL = photoURL else {
             return
@@ -51,8 +53,16 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
             return
         }
 
-        if ImageCache.default.imageCachedType(forKey: photoURL).cached == true {
-            underlyingImage = ImageCache.default.retrieveImageInDiskCache(forKey: photoURL)
+        if ImageCache.default.isCached(forKey: photoURL) == true {
+            ImageCache.default.retrieveImage(forKey: photoURL) { [weak self] result in
+                guard let `self` = self else { return }
+                switch result {
+                case let .success(value):
+                    self.underlyingImage = value.image
+                case let .failure(error):
+                    print(error)
+                }
+            }
         }
     }
 
@@ -60,22 +70,21 @@ open class KFPhoto: NSObject, SKPhotoProtocol {
         guard photoURL != nil, let URL = URL(string: photoURL) else { return }
 
         // Fetch Image
-        ImageDownloader.default.downloadImage(with: URL, options: [], progressBlock: nil) { (image, error, url, data) in
-            guard error == nil else {
+        ImageDownloader.default.downloadImage(with: URL) { result in
+            switch result {
+            case let .success(value):
+                print(value.image)
                 DispatchQueue.main.async {
                     self.loadUnderlyingImageComplete()
                 }
-                return
-            }
-
-            if let image = image {
                 if self.shouldCachePhotoURLImage {
-                    ImageCache.default.store(image, original: data, forKey: self.photoURL, toDisk: true)
+                    ImageCache.default.store(value.image, original: value.originalData, forKey: self.photoURL, toDisk: true)
                 }
+            case let .failure(error):
+                print(error)
                 DispatchQueue.main.async {
                     self.loadUnderlyingImageComplete()
                 }
-                return
             }
         }
     }

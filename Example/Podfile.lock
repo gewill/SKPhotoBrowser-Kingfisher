@@ -1,17 +1,19 @@
 PODS:
-  - Kingfisher (5.2.0)
+  - Kingfisher (5.9.0):
+    - Kingfisher/Core (= 5.9.0)
+  - Kingfisher/Core (5.9.0)
   - SKPhotoBrowser (6.1.0)
-  - SKPhotoBrowser-Kingfisher (2.0.0):
-    - SKPhotoBrowser-Kingfisher/Core (= 2.0.0)
-  - SKPhotoBrowser-Kingfisher/Core (2.0.0):
-    - Kingfisher (~> 5.2.0)
+  - SKPhotoBrowser-Kingfisher (2.1.0):
+    - SKPhotoBrowser-Kingfisher/Core (= 2.1.0)
+  - SKPhotoBrowser-Kingfisher/Core (2.1.0):
+    - Kingfisher (~> 5.9.0)
     - SKPhotoBrowser (~> 6.1.0)
 
 DEPENDENCIES:
   - SKPhotoBrowser-Kingfisher (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Kingfisher
     - SKPhotoBrowser
 
@@ -20,10 +22,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
   SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
-  SKPhotoBrowser-Kingfisher: 3bb8aaf1a9803013eb5a5522e3ecb57d0e383b5a
+  SKPhotoBrowser-Kingfisher: 10a9d840c1b1586df1257ceca7604cc304841931
 
 PODFILE CHECKSUM: 427c89d3c88f0aa257cf44ce8fa7f58c5cdb9a41
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4

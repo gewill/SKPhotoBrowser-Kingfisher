@@ -234,17 +234,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-Kingfisher/Pods-SKPhotoBrowser-Kingfisher-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
-				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser-Kingfisher/SKPhotoBrowser_Kingfisher.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-Kingfisher/Pods-SKPhotoBrowser-Kingfisher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser_Kingfisher.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-Kingfisher/Pods-SKPhotoBrowser-Kingfisher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -256,17 +251,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-KingfisherTests/Pods-SKPhotoBrowser-KingfisherTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
-				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser-Kingfisher/SKPhotoBrowser_Kingfisher.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-KingfisherTests/Pods-SKPhotoBrowser-KingfisherTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser_Kingfisher.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKPhotoBrowser-KingfisherTests/Pods-SKPhotoBrowser-KingfisherTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
