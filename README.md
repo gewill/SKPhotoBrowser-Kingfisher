@@ -1,8 +1,7 @@
 # SKPhotoBrowser-Kingfisher
 
 [![Version](https://img.shields.io/cocoapods/v/SKPhotoBrowser-Kingfisher.svg?style=flat)](http://cocoapods.org/pods/SKPhotoBrowser-Kingfisher)
-[![Build Status](https://travis-ci.org/AvdLee/SKPhotoBrowser-Kingfisher.svg?style=flat&branch=master)](https://travis-ci.org/AvdLee/SKPhotoBrowser-Kingfisher)
-[![Language](https://img.shields.io/badge/language-swift4.1-f48041.svg?style=flat)](https://developer.apple.com/swift)
+[![Language](https://img.shields.io/badge/language-swift5.1-f48041.svg?style=flat)](https://developer.apple.com/swift)
 [![License](https://img.shields.io/cocoapods/l/SKPhotoBrowser-Kingfisher.svg?style=flat)](http://cocoapods.org/pods/SKPhotoBrowser-Kingfisher)
 [![Platform](https://img.shields.io/cocoapods/p/SKPhotoBrowser-Kingfisher.svg?style=flat)](http://cocoapods.org/pods/SKPhotoBrowser-Kingfisher)
 [![Twitter](https://img.shields.io/badge/twitter-@gewill_org-blue.svg?style=flat)](http://twitter.com/gewill_org)
@@ -54,7 +53,8 @@ Ge Will
 
 Mail: [531sunlight@gmail.com](mailto:531sunlight@gmail.com)  
 Home: [https://gewill.org/](https://gewill.org/)  
-Twitter: [@gewill_org](https://www.twitter.com/gewill_org)
+Twitter: [@BoJack_D](https://twitter.com/BoJack_D)
+
 ## License
 
 SKPhotoBrowser-Kingfisher is available under the MIT license. See the LICENSE file for more info.
